@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562417942252",
+    "project_id": "onesignal-flutter-7a52e",
+    "storage_bucket": "onesignal-flutter-7a52e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562417942252:android:563611fad690b044fb6fc9",
+        "android_client_info": {
+          "package_name": "com.example.onesignal_flutter_package"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562417942252-hjsa6ik58hrqgcfi9tej73s2b9eg6v48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjC0nbBZzC7B-VmiAKcqPPYER55Bj8B9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562417942252-hjsa6ik58hrqgcfi9tej73s2b9eg6v48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
