@@ -101,7 +101,7 @@ Then provide `Firebase Server Key` and `Firebase Sender ID` from firebase `Proje
 After providing these details, you will receive `appId` in string format. Copy and save the `appId`.
 - In `main.dart` file, you just need to call `OneSignal.shared.setAppId(oneSignalAppId);` in the `initState()` method of your stateful widget.
 ```dart
-  static const oneSignalAppId = 'your-AppId';
+  final oneSignalAppId = 'your-AppId';
   @override
   void initState() {
     super.initState();
