@@ -112,3 +112,12 @@ After providing these details, you will receive `appId` in string format. Copy a
 - When the app is running, go to `Messages` tab, click on `New Message`, and then click on `New Push` to create and send the new push notification.
 ![Screenshot](screenshots/Screenshot3.png)
 Notification also shows when app is running in background or completely killed.
+  - Notifications according to above process shows as silent notification. Although it has tone, but it does not show pop up as like normal notifications have. It shows only in list of notifications when it is received.
+<br />To show pop up when notification is received, you can check this documentation: [Android Notification Categories](https://documentation.onesignal.com/docs/android-notification-categories). This documentation says that in your `OneSignal Dashboard`, go to `Settings > Messaging > Android Notification Channels`.
+<br />![Screenshot](screenshots/Popup1.PNG)
+Then click `Add Group` and `Add Channel` under the newly created group. These names will be visible to the user when they view the notification settings for your app on the device.
+<br />![Screenshot](screenshots/Popup2.png)
+<br />Enter the category name, description, and any defaults the device will use for notifications sent with this category. When finished, click "Create Category". Set the `Importance` to `URGENT -> It makes sound and pops up on screen.`
+<br />![Screenshot](screenshots/Popup3.png)
+<br />Now, while sending the notification, choose the `Category` of the name which you created for `Urgent` priority in `2. Message` step. Then send the notification. It will pop up in user device.
+<br />![Screenshot](screenshots/Popup4.png)
