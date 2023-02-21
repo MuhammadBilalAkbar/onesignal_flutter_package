@@ -18,7 +18,7 @@
     - onesignal documentation
     - flutter onesignal push notification
     - flutter onesignal background notification
-- Video Title: OneSignal Flutter Tutorial - Flutter background notification and push notification example
+- Video Title: OneSignal Flutter Tutorial - Flutter background notification and push/pop-up notification example
 
 ## 2. Research: Competitors
 
